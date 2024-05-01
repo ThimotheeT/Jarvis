@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Tableau de bord</title>
+</head>
+
+<body>
+    <h1>Tableau de bord</h1>
+
+    <div class="container">
+        <div class="jour">
+            <p class="date"></p>
+            <p class="heure"></p>
+        </div>
+
+        <div class="timer">
+            <input class="input" type="number" min="1" max="60" id="input"><button id="submit">Choisir</button>
+            <p id="timer"></p>
+            <button id="start">Start</button>
+            <button id="restart">Restart</button>
+        </div>
+
+        <div class="weather">
+            <p class="city"></p>
+            <p class="temp"></p>
+            <img class="weather-icon" src="">
+        </div>
+    </div>
+
+    <div class="todo">
+        <form id="todo-form" class="form">
+            <input type="text" id="todo-input" />
+            <button type="submit">Add</button>
+        </form>
+        <ul id="todo-items"></ul>
+        <div id="progress-bar"></div>
+    </div>
+
+    <div>
+        <form action="https://google.com/search" method="GET" class="google-search" target="_blank">
+            <input type="text" name="q" placeholder="Google">
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <div>
+        <form action="https://blackbox.ai" method="GET" class="blackbox-search" target="_blank">
+            <input type="text" name="q" placeholder="Blackbox">
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <audio id="audio" src="/musiques/ALRMClok_Reveil electronique (ID 0173)_LS.mp3"></audio>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.weather {
+    border: solid black 2px;
+    text-align: center;
+}
+
+.jour {
+    border: solid black 2px;
+    text-align: center;
+}
+
+.timer {
+    border: solid black 2px;
+}
+
+
+
+.todo {
+    border: solid red 2px;
+    width: 50%;
+}
+
+#todo-form {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+#todo-input {
+
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+}
+
+#todo-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+
+}
+
+.item input[type="checkbox"] {
+    margin-right: 1rem;
+}
+
+.item button {
+    margin-left: 1rem;
+}
+
+#progress-bar {
+    height: 20px;
+    background-color: white;
+    width: 0;
+    border:solid black 1px;
+}
