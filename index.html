@@ -5,26 +5,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
     <title>Tableau de bord</title>
 </head>
 
 <body>
-    <h1>Tableau de bord</h1>
+    <div class="image-couv"></div>
+    <h1 class="titre">Welcome, I am Jarvis.</h1>
 
     <div class="container">
         <div class="jour">
-            <p class="date"></p>
+            <p>Today :</p>
             <p class="heure"></p>
+            <p class="date"></p>
         </div>
 
         <div class="timer">
-            <input class="input" type="number" min="1" max="60" id="input"><button id="submit">Choisir</button>
-            <p id="timer"></p>
-            <button id="start">Start</button>
-            <button id="restart">Restart</button>
+            <p>Timer :</p>
+            <input class="input" type="number" min="1" max="60" id="input"><button id="submit" class="select">Select</button>
+            <p id="timer" class="minuteur"></p>
+            <button id="start" class="start">Start</button>
+            <button id="restart" class="restart">Restart</button>
         </div>
 
         <div class="weather">
+            <p>Weather :</p>
             <p class="city"></p>
             <p class="temp"></p>
             <img class="weather-icon" src="">

@@ -1,23 +1,101 @@
+body{
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #a010f6;
+    background-color: #1c1f26;
+}
+
+.titre{
+    font-weight: 300;
+    font-size: 40px;
+    letter-spacing: 2px;
+    border-bottom: solid gray 2px;
+    padding-bottom: 1rem;
+}
+
+.image-couv{
+    width: 90%;
+    height: 20rem;
+    padding-left: 10%;
+    background-image: url("gif/cybercity.gif");
+}
+
+
+button{
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3,1fr);
+    border-bottom: solid gray 2px;
+    padding-bottom: 1rem;
+}
+
+.jour, .timer, .weather {
+    text-align: center;
+    font-size: 25px;
+    margin: auto;
+    letter-spacing: 2px;
+}
+
+.heure{
+    font-size: 40px;
+    margin: 1rem;
+}
+
+.input{
+    border-radius: 20px;
+    font-size: 30px;
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #a010f6;
+    text-align: center;
+    
+    
+}
+
+.minuteur{
+    font-size: 40px;
+}
+
+.select{
+    border-radius: 20px;
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    height: 35px;
+    margin-left: 0.5rem;
+    color: #a010f6;
+    background-color: #1c1f26;
+    border: none;
+    letter-spacing: 2px;
+}
+
+.start, .restart{
+    border-radius: 20px;
+    font-size: 20px;
+    height: 35px;
+    color: #a010f6;
+    background-color: #1c1f26;
+    border: none;
+    letter-spacing: 2px;
 }
 
 .weather {
-    border: solid black 2px;
     text-align: center;
 }
 
-.jour {
-    border: solid black 2px;
-    text-align: center;
+.weather-icon{
+    height: 3rem;
+    mix-blend-mode: multiply;
 }
-
-.timer {
-    border: solid black 2px;
-}
-
 
 
 .todo {
