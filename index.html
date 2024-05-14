@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
-    <title>Tableau de bord</title>
+    <title>Jarvis</title>
 </head>
 
 <body>
@@ -49,23 +49,25 @@
             <ul id="todo-items"></ul>
             <div id="progress-bar"></div>
         </div>
-        <div class="budget">
 
+        <div class="search-bar">
+            <div>
+                <p>A question?</p>
+                <form action="https://google.com/search" method="GET" class="google-search" target="_blank">
+                    <input type="text" name="q" placeholder="Google">
+                    <button type="submit">Search</button>
+                </form>
+            </div>
+        
+            <div>
+                <p>Need help with your code?</p>
+                <form action="https://blackbox.ai" method="GET" class="blackbox-search" target="_blank">
+                    <input type="text" name="q" placeholder="Blackbox">
+                    <button type="submit">Ask</button>
+                </form>
+            </div>
         </div>
-    </div>
 
-    <div>
-        <form action="https://google.com/search" method="GET" class="google-search" target="_blank">
-            <input type="text" name="q" placeholder="Google">
-            <button type="submit">Submit</button>
-        </form>
-    </div>
-
-    <div>
-        <form action="https://blackbox.ai" method="GET" class="blackbox-search" target="_blank">
-            <input type="text" name="q" placeholder="Blackbox">
-            <button type="submit">Submit</button>
-        </form>
     </div>
 
     <audio id="audio" src="/musiques/ALRMClok_Reveil electronique (ID 0173)_LS.mp3"></audio>

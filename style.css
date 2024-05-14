@@ -175,3 +175,21 @@ button{
     margin-left: 5%;
     margin-top: 2rem;
 }
+
+.search-bar{
+    text-align: center;
+    font-size: 30px;
+}
+
+.search-bar input{
+    border-radius: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.search-bar button{
+    font-size: 25px;
+    color: #a010f6;
+    background-color: transparent;
+    border: none;
+}
