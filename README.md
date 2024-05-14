@@ -1,6 +1,6 @@
 # Jarvis
 
-Jarvis is a little dashbord, you can find everything you need, weather, timer, todo,.. 
+Jarvis is a little dashboard, you can find everything you need, weather, timer, todo,.. 
 
 Try your new personnal assistant.
 
